@@ -18,20 +18,17 @@ A **C# application** using **NAudio** and **WASAPI Loopback Capture** to **captu
 ### 📂 Project Structure  
 
 ```
-MultiDeviceAudioUi/
-│── src/
-│   ├── MainWindow.xaml        # UI Layout
-│   ├── MainWindow.xaml.cs     # UI Logic
-│   ├── AudioManager.cs        # Core audio processing
-│   ├── DeviceController.cs    # Handles output device selection
-│   ├── VolumeController.cs    # Adjusts volume per device
-│   ├── DelayController.cs     # Implements delay for each output
-│   └── Utils.cs               # Helper functions
-│── assets/                    # UI icons and images
-│── README.md                  # Project documentation
-│── MultiDeviceAudioUi.sln      # Solution file
-│── LICENSE                    # License details
-│── .gitignore                  # Git ignored files
+MultiDeviceAudioUI.sln
+└── MultiDeviceAudioUI
+    ├── App.xaml
+    ├── App.xaml.cs
+    ├── MainWindow.xaml
+    ├── MainWindow.xaml.cs
+    ├── Models
+    │   └── OutputDeviceSetting.cs
+    └── AudioProcessing
+        ├── DeviceAudioPipeline.cs
+        └── DelaySampleProvider.cs
 ```
 
 ---
