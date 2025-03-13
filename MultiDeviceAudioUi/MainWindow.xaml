@@ -1,0 +1,33 @@
+﻿<Window x:Class="MultiDeviceAudioUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:MultiDeviceAudioUI"
+        Title="Multi-Device Audio Enhancer" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="DeviceDataGrid" AutoGenerateColumns="False" Margin="10" ItemsSource="{Binding OutputDevices}">
+            <DataGrid.Columns>
+                <!-- Checkbox column for enabling/disabling the device -->
+                <DataGridCheckBoxColumn Header="Enabled" Binding="{Binding IsEnabled, Mode=TwoWay}" Width="80"/>
+                <DataGridTextColumn Header="Device" Binding="{Binding DeviceName}" IsReadOnly="True" Width="200"/>
+                <DataGridTemplateColumn Header="Volume" Width="150">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Slider Minimum="0" Maximum="1" Value="{Binding Volume, Mode=TwoWay}" Width="150"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Delay (ms)" Width="150">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Slider Minimum="0" Maximum="1000" Value="{Binding DelayMs, Mode=TwoWay}" Width="150"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10">
+            <Button Content="Start" Click="StartButton_Click" Width="100" Margin="10"/>
+            <Button Content="Stop" Click="StopButton_Click" Width="100" Margin="10"/>
+        </StackPanel>
+    </Grid>
+</Window>
