@@ -1,6 +1,4 @@
-Here is your updated `README.md` file, including the provided screenshots:
 
-```markdown
 # Multi-Device System Audio Router 🎵
 
 A **C# application** using **NAudio** and **WASAPI Loopback Capture** to **capture system audio** and **route it to multiple output devices simultaneously**. Supports **device selection, volume control, delay adjustments**, and more.
@@ -62,10 +60,10 @@ cd MultiDeviceAudioUi
 
 ## 🎨 UI Preview  
 ### Main Interface:
-![Multi-Device Audio Enhancer](image1.png)
+![Multi-Device Audio Enhancer](https://drive.google.com/file/d/1ZT0n0nMj74KtMPSqO0cKTS2cLHDhtbHV/view?usp=drive_link)
 
 ### Sound Output Selection:
-![Sound Output Selection](image2.png)
+![Sound Output Selection](https://drive.google.com/file/d/1rnq_hVacOpLBbfWndchUSuR9k_MScGfG/view?usp=sharing)
 
 *Screenshots showcasing the multi-device routing functionality.*
 
