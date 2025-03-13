@@ -14,7 +14,7 @@ A **C# application** using **NAudio** and **WASAPI Loopback Capture** to **captu
 - **WASAPI Loopback Capture** (for system audio routing)
 - **WinForms/WPF** (for UI - future enhancement)
 
-- ### 📂 Project Structure  
+### 📂 Project Structure  
 
 MultiDeviceAudioUi/
 │── src/
@@ -32,6 +32,7 @@ MultiDeviceAudioUi/
 │── .gitignore                  # Git ignored files
 
 
+---
 ---
 
 ## 🚀 Installation & Setup  
