@@ -63,7 +63,7 @@ cd MultiDeviceAudioUi
 ![Multi-Device Audio Enhancer](https://github.com/vkvive720/multi_audio_route/blob/0a25000b4ed304d5ac1df121ebac8893660fb1c3/Screenshot%202025-03-14%20001802.png)
 
 ### Sound Output Selection:
-![Sound Output Selection](https://drive.google.com/file/d/1rnq_hVacOpLBbfWndchUSuR9k_MScGfG/view?usp=sharing)
+![Sound Output Selection](https://github.com/vkvive720/multi_audio_route/blob/74a05719d677de6c352308f6bd0a8085648cc44b/Screenshot%202025-03-14%20001850.png)
 
 *Screenshots showcasing the multi-device routing functionality.*
 
