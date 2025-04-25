@@ -83,19 +83,9 @@ cd MultiDeviceAudioUi
 ## 🚀 How to Run
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/MultiDeviceAudioRouter.git
+   git clone https://github.com/vkvive720/multi_audio_route.git
    cd MultiDeviceAudioRouter
    ```
 ```
 
-### Steps to Add Screenshots to Your GitHub Repository:
-1. Move the image files (`image1.png`, `image2.png`) to the `assets/` folder inside your project.
-2. Update the file paths in `README.md` (if stored in a different directory).
-3. Run the following commands to commit and push the changes:
-   ```sh
-   git add assets/image1.png assets/image2.png README.md
-   git commit -m "Added screenshots and updated README"
-   git push origin main
-   ```
 
-This will ensure the images appear correctly when viewed on GitHub. 🚀
